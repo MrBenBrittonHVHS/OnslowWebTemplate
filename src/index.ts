@@ -1,2 +1,2 @@
-import readline from 'readline';
-
+var hydrogen = Array(20)
+console.log(hydrogen) 
