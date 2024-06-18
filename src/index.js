@@ -1,2 +1,5 @@
 var hydrogen = Array.from(Array(20).keys()).map(x => "H")
-console.log(hydrogen) 
+var carbon = Array.from(Array(15).keys()).map(x => "C")
+var oxygen = Array.from(Array(15).keys()).map(x => "O")
+var deck = Array(hydrogen + carbon + oxygen)
+console.log(deck)
