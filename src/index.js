@@ -1,2 +1,2 @@
-var hydrogen = Array(20);
-console.log(hydrogen);
+var hydrogen = Array.from(Array(20).keys()).map(x => "H")
+console.log(hydrogen) 
